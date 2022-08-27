@@ -59,7 +59,7 @@ export default function Layout({ title, children }) {
                   >
                     {session?.user?.name}
                   </a>
-                  <ul class="dropdown-menu">
+                  <ul class="dropdown-menu dropdown-menu-end">
                     <li>
                       <a class="dropdown-item" href="#">
                         Action
